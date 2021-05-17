@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+
+.headers {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    background-color: rgb(37 47 99);
+    color: rgb(230, 225, 225);
+}
+
+.list {
+    list-style-type: none;
+    padding: 12px;
+}
+
+.link:hover {
+    background-color: rgb(202, 211, 214);
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px solid rgb(37 47 99);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.caption {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.tableHeader {
+    background-color: rgb(37 47 99);
+    color: rgb(255 255 255);
+    font-weight: normal;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.contact {
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(37 47 99);
+    color: rgb(230, 225, 225);
+    text-align: center;
+    padding: 15px;
+}
+
+.work {
+    text-transform: uppercase;
+}
+
+.youCode {
+    color: #E08E16;
+}
+
+.image {
+    max-width: 300px;
+    display: block;
+    margin: 20px auto 20px auto;
+    border-radius: 20%;
+    box-shadow: 15px -10px 10px -7px #4F7793;
+}
