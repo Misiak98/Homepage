@@ -6,15 +6,28 @@ html {
     box-sizing: inherit;
 }
 
-.headers{
+.headers {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     background-color: rgb(37 47 99);
     color: rgb(230, 225, 225);
 }
 
-.headers_text{
+.headers_text {
     font-family: 'Lato', sans-serif;
     color: rgb(0, 0, 0);
     line-height: 1.5;
+}
+
+.headers_text--work {
+    text-transform: uppercase;
+}
+
+.headers_text--youCode {
+    color: #E08E16;
+}
+
+.headers_text--contact {
+    text-align: center;
+    padding:5px;
 }

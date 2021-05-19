@@ -5,10 +5,16 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
-
+.navigation{
+    min-width: 200px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+}
 .navigation_item {
     list-style-type: none;
-    padding: 12px;
+    padding:12px;
 }
 
 .navigation_item--link:hover {
@@ -22,7 +28,9 @@ html {
     font-size: 17px;
     border: 2px solid rgb(37 47 99);
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 12px;
+    width: 100%;
+    
 }
 
 .navigation_item--list {
