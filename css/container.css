@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.conteiner {
+    overflow-x: auto;
+}
+
+.conteiner_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.conteiner_table--caption {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.conteiner_table--tableRow {}
+
+.conteiner_table--tableCell {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.conteiner_table--tableRow {}
+
+.conteiner_table--tableHeader {
+    background-color: rgb(37 47 99);
+    color: rgb(255 255 255);
+    font-weight: normal;
+}

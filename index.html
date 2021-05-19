@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src='js/script.js'></script>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/image.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
@@ -17,28 +22,28 @@
     <h1 class="headers">Cześć! Miło mi, że wpadłeś.</h1>
     <nav>
         <ul class="navigation">
-            <li class="list"><a class="link" href="#kim-jestem">Kim jestem?</a></li>
-            <li class="list"><a class="link" href="#zainteresowania">Zainteresowania</a></li>
-            <li class="list"><a class="link" href="#moje-plany">Moje plany</a></li>
-            <li class="list"><a class="link" href="#kontakt">Kontakt</a></li>
+            <li class="navigation_item--list"><a class="navigation_item--link" href="#kim-jestem">Kim jestem?</a></li>
+            <li class="navigation_item--list"><a class="navigation_item--link" href="#zainteresowania">Zainteresowania</a></li>
+            <li class="navigation_item--list"><a class="navigation_item--link" href="#moje-plany">Moje plany</a></li>
+            <li class="navigation_item--list"><a class="navigation_item--link" href="#kontakt">Kontakt</a></li>
         </ul>
     </nav>
     <section id="Kim-jestem?">
         <h2 class="headers">Kim jestem?</h2>
         <img src="img/18839495_1493402600703086_1646224844639436241_o (1).jpg" class="image" alt="Piotr Misiak autor strony">
-        <p class="text">Cześć! Nazywam się Piotrek. Jestem studentem biotechnologii na Politechnice Wrocławskiej. W
+        <p class="headers_text">Cześć! Nazywam się Piotrek. Jestem studentem biotechnologii na Politechnice Wrocławskiej. W
             sezonie letnim
             pracuje jako ratownik wodny. Kiedy zaczyna się robic szaro i zimno, można mnie spotkać w klubie <span
-                class="work">prorock</span> w
+                class="headers_text--work">prorock</span> w
             Sieradzu gdzie pracuje jako barman. Przez pandemie uświadomiłem sobię, że studia na których jestem nie są
             dla mnie. Pomyślałem <em>Czas coś zrobić dla siebie!</em> i tak oto zapisałem się na kurs you<span
-                class="youCode">Code</span>. Mam nadzieję, że przez okres pięciu miesięcy wiele się dowiem oraz
+                class="headers_text--youCode">Code</span>. Mam nadzieję, że przez okres pięciu miesięcy wiele się dowiem oraz
             przybliży mnie on do zostania frontendowcem.</p>
     </section>
 
     <section id="zainteresowania">
         <h2 class="headers">Zainteresowania</h2>
-        <p class="text">W wolnym czasie lubię czytać książki sci-fiction. Uwielbiam moment w którym mogę przenieść się
+        <p class="headers_text">W wolnym czasie lubię czytać książki sci-fiction. Uwielbiam moment w którym mogę przenieść się
             do innego
             świata i przeżywać wspaniałe przygody razem z głównymi bohaterami. Oprócz tego jestem zapalonym sportowcem.
             Kiedyś trenowałem kajakarstwo klasyczne. Mimo, że przygoda z tym sportem
@@ -47,44 +52,44 @@
 
     <section id="moje-plany">
         <h2 class="headers">Moje plany</h2>
-        <p class="text">Kiedy skończy się pandemia, chciałbym odwiedzić wiele przepięknych miejsc.Wiem,
+        <p class="headers_text">Kiedy skończy się pandemia, chciałbym odwiedzić wiele przepięknych miejsc.Wiem,
             że nie będzie to łatwe ale uważam, że jeśli czegoś bardzo chcemy to znajdziemy sposób aby to zrealizować.
             Poniżej przedstawiłem przykładowe miejsca które chciałbym zwiedzić.
         </p>
        <div class = "conteiner">
-        <table class="table">
-            <caption class="caption">Miejsca które chciałbym zwiedzić</caption>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="col">Miejsce</th>
-                <th class="tableCell tableHeader" scope="col">Kraj</th>
-                <th class="tableCell tableHeader" scope="col">Język</th>
+        <table class="conteiner_table">
+            <caption class="conteiner_table--caption">Miejsca które chciałbym zwiedzić</caption>
+            <tr class="conteiner_table--tableRow">
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="col">Miejsce</th>
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="col">Kraj</th>
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="col">Język</th>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Dubrownik</th>
-                <td class="tableCell" rowspan="2">Chorowacja</td>
-                <td class="tableCell" rowspan="2">chorowacki</td>
+            <tr class="conteiner_table--tableRow">
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="row">Dubrownik</th>
+                <td class="conteiner_table--tableCell" rowspan="2">Chorowacja</td>
+                <td class="conteiner_table--tableCell" rowspan="2">chorowacki</td>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Zagrzeb</th>
+            <tr class="conteiner_table--tableRow">
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="row">Zagrzeb</th>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Wenecja</th>
+            <tr class="conteiner_table--tableRow">
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="row">Wenecja</th>
                 <td class="tableCell">Włochy</td>
                 <td class="tableCell">włoski</td>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Petra </th>
+            <tr class="conteiner_table--tableRow">
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="row">Petra </th>
                 <td class="tableCell">Jordania</td>
                 <td class="tableCell">arabski</td>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Cape Greco </th>
+            <tr class="conteiner_table--tableRow">
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="row">Cape Greco </th>
                 <td class="tableCell">Cypr</td>
                 <td class="tableCell">turecki</td>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Paryż </th>
-                <td class="tableCell">Francja</td>
-                <td class="tableCell">francuski</td>
+            <tr class="conteiner_table--tableRow">
+                <th class="conteiner_table--tableCell conteiner_table--tableHeader" scope="row">Paryż </th>
+                <td class="conteiner_table--tableCell">Francja</td>
+                <td class="conteiner_table--tableCell">francuski</td>
             </tr>
         </table>
        </div>
@@ -92,11 +97,11 @@
 
     <section id="kontakt">
         <h2 class="headers">Kontakt</h2>
-        <p class="text contact">Email: <a class="contact" href="mailto:piotr_misiak6@wp.pl">piotr_misiak6</a></p>
-        <p class="text contact">Tel: <a class="contact" href="tel:+48123123123">+48 123 123 123</a></p>
+        <p class="headers_text--contact">Email: <a class="headers_text--contact" href="mailto:piotr_misiak6@wp.pl">piotr_misiak6</a></p>
+        <p class="headers_text--contact">Tel: <a class="headers_text--contact" href="tel:+48123123123">+48 123 123 123</a></p>
     </section>
-    <Footer>
-        <p class="footer">Wszelkie prawa zastrzeżone</p>
+    <Footer class = "footer">
+        <p class="footer_copyright">Wszelkie prawa zastrzeżone</p>
     </Footer>
 
 </html>

@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.footer{
+    background-color: rgb(37 47 99);
+    color: rgb(230, 225, 225);
+}
+.footer_copyright{
+    text-align: center;
+    padding: 15px;
+}

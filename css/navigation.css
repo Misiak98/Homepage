@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation_item {
+    list-style-type: none;
+    padding: 12px;
+}
+
+.navigation_item--link:hover {
+    background-color: rgb(202, 211, 214);
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navigation_item--link {
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px solid rgb(37 47 99);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.navigation_item--list {
+    list-style-type: none;
+    padding: 12px;
+}
